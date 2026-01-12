@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.game-btns{
+  @apply bg-[yellow] w-[300px] h-[300px] text-9xl text-[black] border border-2 ;
+}

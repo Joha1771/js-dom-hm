@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,7 +8,32 @@
     <link href="/src/style.css" rel="stylesheet" />
   </head>
   <body>
-    <section></section>
-    <script type="module" src="/src/main.js"></script>
+    <section class="flex items-center justify-center">
+      <div class="container mx-auto px-[10px] flex items-center justify-center">
+      <div class="game-board w-[903px] h-[900px] flex flex-wrap">
+      <button class="btn-1 game-btns"></button>
+      <button class="btn-2 game-btns"></button>
+      <button class="btn-3 game-btns"></button>
+      <button class="btn-4 game-btns"></button>
+      <button class="btn-5 game-btns"></button>
+      <button class="btn-6 game-btns"></button>
+      <button class="btn-7 game-btns"></button>
+      <button class="btn-8 game-btns"></button>
+      <button class="btn-9 game-btns"></button>
+    </div>
+    </div>
+    </section>
+    <section class="flex items-center justify-center pt-[100px] pb-[100px] ">
+      <div class="container mx-auto px-[10px] flex flex-col gap-[50px] items-center justify-center">
+        <div class="bg-[url(/public/game.png)]  bg-no-repeat bg-center ">
+          <button class=" start-btn py-[40px] px-[200px] text-center text-7xl font-extrabold cursor-pointer">Start</button>
+        </div>
+        <div class="flex items-center justify-center gap-[70px]">
+        <div class="boxes1  w-[100px] h-[100px]"></div>
+        <div class="boxes2  w-[100px] h-[100px]"></div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="/src/index.js"></script>
   </body>
 </html>
